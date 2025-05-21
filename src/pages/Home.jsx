@@ -19,9 +19,9 @@ const Home = () => {
         {snap.intro && (
             <motion.section className='home' {...slideAnimation('left')}>
 
-                <motion.header {...slideAnimation('down')}>
+                {/* <motion.header {...slideAnimation('down')}>
                     <img src='./PW_Logo.png' alt='logo' className='w-25 h-25 object-contain' />
-                </motion.header>
+                </motion.header> */}
 
                 <motion.div className='home-contet' {...headContainerAnimation}>
                     <motion.div {...headTextAnimation}>
