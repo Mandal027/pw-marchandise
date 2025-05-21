@@ -160,7 +160,7 @@ const Customizer = () => {
           
           {/* this div is to create BACK button in the left top of the screen */}
           <motion.div 
-            className='absolute z-10 top-5 right-5'
+            className='absolute z-10 bottom-7 right-8 md:right-20'
             {...fadeAnimation}
           >
             <CustomButton

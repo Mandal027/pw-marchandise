@@ -23,7 +23,7 @@ const Home = () => {
                     <img src='./PW_Logo.png' alt='logo' className='w-25 h-25 object-contain' />
                 </motion.header> */}
 
-                <motion.div className='home-contet' {...headContainerAnimation}>
+                <motion.div className='home-contet mt-20 md:mt-32' {...headContainerAnimation}>
                     <motion.div {...headTextAnimation}>
                         <h1 className='head-text'>
                             WEAR <br className='xl:block hidden' /> YOUR ART.
